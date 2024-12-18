@@ -1,0 +1,117 @@
+.home {
+    background: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .welcome-message {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 38.78px;
+
+        @media screen and (max-width:700px) {
+            font-size: 24px;
+            line-height: 26px;
+        }
+    }
+
+    .platform-name {
+        font-family: Poppins;
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 52.33px;
+        color: #6358DC;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width:700px) {
+            font-size: 32px;
+            line-height: 36px;
+        }
+    }
+
+    .user-profile {
+        box-shadow: 0px 4px 14px 0px #000000A6;
+        border: 1px solid #E2E2E2;
+        border-radius: 20px;
+        margin-top: 40px;
+        padding: 25px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width:700px) {
+            border-radius: 12px;
+            margin-top: 20px;
+            padding: 15px 30px;
+        }
+
+        .user-image {
+            border-radius: 50%;
+            border: 1px solid #E2E2E2;
+        }
+
+        .user-name {
+            color: #6358DC;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            margin-top: 15px;
+
+            @media screen and (max-width:700px) {
+                font-size: 12px;
+                line-height: 15px;
+                margin-top: 10px;
+            }
+        }
+
+        .user-email {
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 14.52px;
+            margin-top: 3px;
+            color: var(--Brand-color-Grey-1100, #383838);
+            @media screen and (max-width:700px) {
+                font-size: 10px;
+                line-height: 12px;
+                margin-top: 2px;
+            }
+
+        }
+
+        .login-container {
+            margin-top: 15px;
+            background: #6358DC;
+            width: 100%;
+            border-radius: 16px;
+            border: #6358DC;
+            padding: 15px;
+            color: #FFFFFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            @media screen and (max-width:700px) {
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 10px;
+                line-height: 16px;
+                font-size: 12px;
+            }
+        }
+    }
+
+
+}
